@@ -16,7 +16,7 @@
     "url": "https://github.com/stellar/js-stellar-base.git"
   },
   "keywords": [
-    "stellar"˚
+    "stellar"
   ],
   "engines": {
     "node": ">=4"
