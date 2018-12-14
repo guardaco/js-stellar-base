@@ -4,8 +4,6 @@
   "description": "Low level stellar support library",
   "main": "lib/index.js",
   "scripts": {
-    "test": "babel-node ./node_modules/gulp/bin/gulp.js test:node",
-    "docs": "./node_modules/.bin/jsdoc ./src/ -d docs/",
     "preversion": "gulp test",
     "version": "gulp build",
     "postversion": "git push && git push --tags"
@@ -18,7 +16,7 @@
     "url": "https://github.com/stellar/js-stellar-base.git"
   },
   "keywords": [
-    "stellar"
+    "stellar"˚
   ],
   "engines": {
     "node": ">=4"
